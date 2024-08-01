@@ -1,0 +1,61 @@
+h3 {
+    border-bottom: none;
+}
+/* puts the image next to the text */
+.description_wrapper {
+    display: grid; 
+    grid-template-columns: 0.45fr 1fr; /*adjust the layout of image and text*/
+    column-gap: 5px;
+    margin: 0% 10%;
+}
+   
+img {
+    max-width: 100%;
+}
+/* target the links in the description */
+.description_wrapper a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.description_wrapper a:hover {
+    background-color: white; /*for links throughout the website*/
+    color: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.description_wrapper p {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+#magpie {
+    max-width: 40vw;
+    float: right;
+}
+
+.book-of-month {
+    margin: 0;
+}
+
+.book-of-month a {
+    padding: 0;
+    display: inline;
+    text-decoration: underline;
+}
+
+.book-of-month a:hover {
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    display: inline;
+}
+
+.book-of-month figcaption {
+    color: white;
+}

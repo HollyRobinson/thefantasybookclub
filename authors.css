@@ -1,0 +1,21 @@
+/* Separate links for just information about the site */
+#author_links {
+    margin-left: 10%; 
+    margin-right: 10%;
+
+}#author_links a:hover {
+    background-color: white; /*for links throughout the website*/
+    color: black;
+    padding: 10px 20px;
+}
+
+#author_links a {
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+#author_links p {
+    margin-bottom: 10px; 
+}

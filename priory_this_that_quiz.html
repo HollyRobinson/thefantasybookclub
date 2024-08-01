@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="priory_this_that_quiz.css">
+    <link rel="stylesheet" type="text/css" href="print.css">
+    <title>This or That Quiz: The Priory of the Orange Tree</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a id="home-button" href="index.html" aria-label="go to home page">
+            <img src="Images/fanatasy_book_club_logo_white_round.png" alt="Fantasy Book Club Logo" class="logo">
+        </a>
+        <!-- These do not contain drop down menus -->
+        
+        <a id="2024" href="2024.html" aria-label="Books of 2024 Page">2024</a>
+        <!-- These do contain drop down menus -->
+        <div class="dropdown">
+            <button class="dropbtn" aria-label="Discover Dropdown">Discover</button>
+            <!-- contains links to content relating to the featured books -->
+            <div class="dropdown-content">
+                <a href="book_club_meetings.html" aria-label="Book Club Meetings Page">Book Club Meetings</a>
+                <a href="reviews.html" aria-label="Reviews Page">Reviews</a>
+                <a href="cover_artists.html" aria-label="Cover Artists Page">Cover Artists</a>
+                <a href="authors.html" aria-label="Authors Page">Authors</a>
+                <a href="discussion_questions.html" aria-label="Discussion Questions Page">Discussion Questions</a>
+                <a href="quizzes.html" aria-label="Quizzes Page">Quizzes</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" aria-label="Explore Dropdown">Explore</button> 
+            <!-- contains links with info about the site -->
+            <div class="dropdown-content">
+                <a href="about.html" aria-label="About Page">About</a>
+                <!-- <a href="sourcelog.html" aria-label="Source Log Page">Source Log</a> -->
+                <a href="sitemap.html" aria-label="Sitemap Page">Sitemap</a>
+                
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn" aria-label="Engage Dropdown">Engage</button>
+            <!-- contains links where users can engage with others -->
+            <div class="dropdown-content">
+                <a href="feedback.html" aria-label="Feedback Page">Feedback</a>
+                <a href="subscribe.html" aria-label="Subscription Form Page">Subscribe</a> 
+                <!-- <a href="chat_forums.html" aria-label="Chat Forums Page">Chat Forums</a> -->
+            </div>
+        </div> 
+        
+    </div>
+    
+    <div class="quiz-container">
+        <h1>This or That Quiz: The Priory of the Orange Tree</h1>
+        <p id="description">Did you love <i>The Priory of the Orange Tree by Samantha Shannon</i>? Take this quiz to find our 
+            whether you are more like Tan&#233; or Eadaz uq N&#227;ra. </p>
+        <div class="question" id="question1">
+            <h2>Question 1</h2>
+            <p>East or West?</p>
+            <div class="options">
+                <figure>
+                   <img src="Images/east.jpg" alt="Option A1" class="option" onclick="selectOption('a', 1)">
+                   <figcaption> Image by <a href="https://pixabay.com/users/menieldm-17126708/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7455353" target="_blank" aria-label="visit pixabay.com">MeielDM</a> from <a href="https://pixabay.com/illustrations/fantasy-japan-mountains-7455353/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                </figure>
+                <figure>
+                    <img src="Images/west.jpg" alt="Option B1" class="option" onclick="selectOption('b', 1)">
+                    <figcaption> Image by <a href="https://pixabay.com/users/davidclode-43394210/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8821769" target="_blank" aria-label="visit pixabay.com">David Clode</a> from <a href="https://pixabay.com/illustrations/ai-generated-birch-forest-forest-8821769/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                </figure>
+                
+            </div>
+        </div>
+        <div class="question" id="question2">
+            <h2>Question 2</h2>
+            <p>Dragonrider or Warrior?</p>
+            <div class="options">
+                <figure>
+                    <img src="Images/dragonrider.png" alt="Option A2" class="option" onclick="selectOption('a', 2)">
+                    <figcaption>Image by <a href="https://pixabay.com/users/ymyphoto-23007053/" target="_blank" aria-label="visit pixabay.com">ymyphoto</a> from <a href="https://pixabay.com/illustrations/ai-generated-dragon-white-dragon-8529422/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                </figure>
+                <figure>
+                    <img src="Images/warrior.png.jpg" alt="Option B2" class="option" onclick="selectOption('b', 2)">
+                    <figcaption>Image by <a href="https://pixabay.com/users/darksouls1-2189876/" target="_blank" aria-label="visit pixabay.com">darksouls1</a> from <a href="https://pixabay.com/illustrations/woman-fantasy-portrait-warrior-7468518/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                </figure>
+                </div>
+        </div>
+        <div class="question" id="question3">
+            <h2>Question 3</h2>
+            <p>Moon or Sun?</p>
+            <div class="options">
+                <figure>
+                    <img src="Images/moon.png" alt="Option A3" class="option" onclick="selectOption('a', 3)">
+                </figure>
+                    <figure>
+                    <img src="Images/sun.png" alt="Option B3" class="option" onclick="selectOption('b', 3)">
+                    </figure>
+                </div>
+        </div>
+        <div class="question" id="question4">
+            <h2>Question 4</h2>
+            <p>Dragons or Ichneumons?</p>
+            <div class="options">
+                <figure>
+                    <img src="Images/dragon.png" alt="Option A4" class="option" onclick="selectOption('a', 4)">
+                </figure>
+                    <figure>
+                    <img src="Images/ich.png" alt="Option B4" class="option" onclick="selectOption('b', 4)">
+                    </figure>
+                </div>
+        </div>
+        <div class="question" id="question5">
+            <h2>Question 5</h2>
+            <p>Seiiki or Lasia?</p>
+            <div class="options">
+                <figure>
+                    <img src="Images/seiiki.png" alt="Option A5" class="option" onclick="selectOption('a', 5)">
+                </figure>
+                    <figure>
+                    <img src="Images/lasia.png" alt="Option B5" class="option" onclick="selectOption('b', 5)">
+                    </figure>
+                </div>
+        </div>
+        <div class="question" id="question6">
+            <h2>Question 6</h2>
+            <p>Magic or Strength?</p>
+            <div class="options">
+                <figure>
+                    <img src="Images/magic.jpg" alt="Option A6" class="option" onclick="selectOption('a', 6)">
+                    <figcaption>Image by <a href="https://pixabay.com/users/noah1974-7033385/" target="_blank" aria-label="visit pixabay.com">noah1974</a> from <a href="https://pixabay.com/illustrations/ai-generated-hands-dust-magic-8797235/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                </figure>
+                    <figure>
+                    <img src="Images/strength.jpg" alt="Option B6" class="option" onclick="selectOption('b', 6)">
+                    <figcaption>Image by <a href="https://pixabay.com/users/charlvera-11040068/" target="_blank" aria-label="visit pixabay.com">CharlVera</a> from <a href="https://pixabay.com/illustrations/ai-generated-woman-knight-sword-8860376/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                    </figure>
+                </div>
+        </div>
+        <div class="question" id="question7">
+            <h2>Question 7</h2>
+            <p>Sterren or Siden?</p>
+            <div class="options">
+                <figure>
+                    <img src="Images/sterren.jpg" alt="Option A7" class="option" onclick="selectOption('a', 7)">
+                    <figcaption>Image by <a href="https://pixabay.com/users/aiduck-7047259/" target="_blank" aria-label="visit pixabay.com">Alduck</a> from <a href="https://pixabay.com/illustrations/water-goddess-woman-magic-8827812/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                </figure>
+                    <figure>
+                    <img src="Images/siden.jpg" alt="Option B7" class="option" onclick="selectOption('b', 7)">
+                    <figcaption>Image by <a href="https://pixabay.com/users/kalhh-86169/" target="_blank" aria-label="visit pixabay.com">kalhh</a> from <a href="https://pixabay.com/illustrations/woman-fire-fantasy-book-cover-girl-4665086/" target="_blank" aria-label="visit pixabay.com">Pixabay</a>.</figcaption>
+                    </figure>
+                </div>
+        </div>
+        <div class="buttons-container">
+            <button id="result-button" onclick="showResults()" aria-label="result button"><strong>Results</strong></button>
+            <button id="clear" onclick="clearQuiz()" aria-label="clear button"><strong>Clear</strong></button>
+        </div>
+        <p id="results" class="hidden"></p>
+    </div>
+
+    <script src="priory_quiz.js"></script>
+</body>
+</html>

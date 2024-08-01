@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <!-- Default CSS file -->
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <!-- Specific CSS file -->
+            <link rel="stylesheet" type="text/css" href="index.css">
+            <!-- Style sheet for printing: changes the website to be printer friendly
+            -->
+            <link rel="stylesheet" type="text/css" href="print.css">
+            <!-- Title of the page -->
+            <title>Home</title>
+        </head>
+        <body>
+            <!-- Navigation bar -->
+            <div class="navbar">
+                <a id="home-button" href="index.html" aria-label="go to home page">
+                    <img src="Images/fanatasy_book_club_logo_white_round.png" alt="Fantasy Book Club Logo" class="logo">
+                </a>
+                <!-- These do not contain drop down menus -->
+                
+                <a id="2024" href="2024.html" aria-label="Books of 2024 Page">2024</a>
+                <!-- These do contain drop down menus -->
+                <div class="dropdown">
+                    <button class="dropbtn" aria-label="Discover Dropdown">Discover</button>
+                    <!-- contains links to content relating to the featured books -->
+                    <div class="dropdown-content">
+                        <a href="book_club_meetings.html" aria-label="Book Club Meetings Page">Book Club Meetings</a>
+                        <a href="reviews.html" aria-label="Reviews Page">Reviews</a>
+                        <a href="cover_artists.html" aria-label="Cover Artists Page">Cover Artists</a>
+                        <a href="authors.html" aria-label="Authors Page">Authors</a>
+                        <a href="discussion_questions.html" aria-label="Discussion Questions Page">Discussion Questions</a>
+                        <a href="quizzes.html" aria-label="Quizzes Page">Quizzes</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" aria-label="Explore Dropdown">Explore</button> 
+                    <!-- contains links with info about the site -->
+                    <div class="dropdown-content">
+                        <a href="about.html" aria-label="About Page">About</a>
+                        <!-- <a href="sourcelog.html" aria-label="Source Log Page">Source Log</a> -->
+                        <a href="sitemap.html" aria-label="Sitemap Page">Sitemap</a>
+                        
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn" aria-label="Engage Dropdown">Engage</button>
+                    <!-- contains links where users can engage with others -->
+                    <div class="dropdown-content">
+                        <a href="feedback.html" aria-label="Feedback Page">Feedback</a>
+                        <a href="subscribe.html" aria-label="Subscription Form Page">Subscribe</a> 
+                        <!-- <a href="chat_forums.html" aria-label="Chat Forums Page">Chat Forums</a> -->
+                    </div>
+                </div> 
+                
+            </div>
+            <!-- Background image with overlay -->
+            <div class="image_wrapper">
+                <img id="book_shelf_background" src="Images/book_shelf_background.png" alt="Vintage Books on a Shelf" class="center">
+                <!-- Overlay with Fantasy Book Club logo -->
+                <div id="cover" class="overlay">
+                    <img id="white_logo" src="Images/fanatasy_book_club_logo_white_round.png" alt="Fantasy Book Club Logo" class="center">
+                </div>
+            </div>
+            <!-- The primary call to action encourages users to join the fantasy book club community -->
+            <div class="call-to-action">
+                <h1>Step Into the World of Fantasy</h1>
+                <p>
+                    Join our community of fellow fantasy lovers to discuss your favourite books and 
+                    discover some new ones. 
+                    Whether you prefer lively debates or a more relaxed pace, we offer something for everyone.
+                    Delve into in-depth discussion prompts, or connect with like-minded readers in our live Zoom meetings.
+                    What are you waiting for?
+                </p>
+                
+                <p>
+                    <strong>Become a part of our community!</strong>
+                </p>
+                <p><br></p>
+                <p>
+                    <a href="subscribe.html" class="button" aria-label="Head to the Subscription Form Page Button">Subscribe</a>
+                </p>
+                <p><br></p>
+                <p>
+                    <img id="open_book" src="Images/open_book.png" alt="open book">
+                </p>
+            </div>
+            <!-- <p><br></p> -->
+            <!-- <h1 id="poll">Poll for August's Book</h1>
+            <p>
+                For August the theme is <strong>fairytale</strong>. <i>Uprooted by Naomi Novik</i> is about a young girl 
+                named Agnieszka who lives in a village where young girls are taken from their families to serve a wizard. 
+                To uncover a centuries-old conspiracy, Elisabeth in <i>Sorcery of Thorns by Margaret Rogerson</i> teams up with her enemy in a world where 
+                sorcerers are all viewed as evil. 
+                Sophie Hatter in <i>Howl's Moving Castle by Diana Wynne Jones</i> is thrown into a life of dealing with
+                witches and wizards when she crosses the path of the notorious Witch of the Waste. 
+                In <i>Once Upon a Broken Heart by Stephanie Garber</i>, Evangeline Fox has believed in true love and 
+                happy endings all her life, but begins to find out making deals with immortals may be a bad way 
+                to get what you want, or is it?  
+            </p>
+            <p>Voting closes June 30th, don't miss out.</p>
+            <p id="vote">
+                <strong>Vote for your pick here!</strong>
+            </p>
+            
+            <div class="poll">
+                <a href="https://poll-maker.com/poll5215510xf271C9d0-157" class="button">Vote</a>
+            </div>
+            <p><br/></p>
+            <div class="poll-container">
+                <div class="poll-item">
+                    <img src="Images/uprooted.png">
+                </div>
+                <div class="poll-item">
+                    <img src="Images/Charlie Bowater/sorceryThorns.png">
+                </div>
+                <div class="poll-item">
+                    <img src="Images/howl.png">
+                </div>
+                <div class="poll-item">
+                    <img src="Images/onceUponBrokenHeart.png">
+                </div>
+            </div> -->
+            <!-- <p><br/></p> -->
+            <!-- The countdown timer lets the user know when the content for the next month's featured 
+                book will be available. -->
+            <!-- <div class="coming-soon">
+                <p id="coming-soon">COMING SOON</p>
+                <p id="demo"></p>
+                <p id="coming-soon-text">
+                    Watch this space for next month's book! <strong>HINT</strong>: A young girl is chosen to be an ambitious wizards apprentice...
+                </p>
+                <p>
+                    <img id="amphora" src="Images/nobackgroundtower.png" alt="black tower">
+                </p>
+            </div> -->
+            <p><br></p>
+            <h1>Book for August</h1>
+            <!-- Display the information about the book of the month -->
+            <div class="moon_description_wrapper">
+                <div class="image">
+                    <figure id="book">
+                        <img id="rose" src="Images/august/uprooted.png" alt="Uprooted by Naomi Novik">
+                        <figcaption id="book-caption">Art by Crush Creative</a>. <br/> Image from <a href="https://www.goodreads.com/book/show/27827627-uprooted" target="_blank" aria-label="visit goodreads.com">Goodreads</a>.</figcaption>
+                     </figure>
+                </div>
+                <div class="text">
+                    <!-- author profile picture -->
+                    <figure>
+                        <img id="micaela" src="Images/august/naomiNovik.png" alt="Naomi Novik">
+                        <figcaption id="author"><a href="author_naomi_novik.html" aria-label="go to the Naomi Novik page">Naomi Novik</a>. <br/> Image from <a href="https://www.theguardian.com/books/2016/may/16/women-writers-dominate-nebula-awards-naomi-novik-uprooted" target="_blank" aria-label="visit theguardian.com">The Guardian</a>.</figcaption>
+                    </figure>
+                    <p>             
+                        <!-- description of the book -->
+                       Agnieszka is at peace in her village. However, lurking nearby is an enchanted forest home to
+                       an ageless wizard known only as The Dragon. Her village depends on his protection but it comes at 
+                       a price. A young woman in the village is sacrificed to the wizard and has to serve him for 10 years.
+                       Agnieszka has no idea that she is next.
+                    </p>
+                    <p id="cta2">
+                        <!-- secondary call to action -->
+                        <strong>Want to learn about <i>Uprooted</i>?</strong>
+                    </p>
+                    <p>
+                        <a href="2024.html#August" class="button" aria-label="Learn More About Uprooted by Namoi Novik">Learn More</a>
+                    </p>
+                    <p><strong>Need a copy? Buy the book here:</strong></p>
+                    <p>
+                        <a href="https://www.amazon.com.au/Uprooted-Naomi-Novik/dp/1447294149/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.u5IBw7R0QjD_v_XtYdl0827gdamh9dC8qSc9cVaOldruWa96wG_8gxcqOBO5Fn3q2Z-hEXR6rCTVQb7a65EDVyz531fzArX3rUSoLZlRFzOCY9MUQID4MrU61TvIC3MdBOFJOAaSJk5B9F1EFTtqu3JrYK4-bZwr2VGHS8R18wevOYmKFVw8mQW355GmnqWYoM-IlBanTBEIg53Lyr4hVkQvE8b3Fn5xxXQbb4COO1bySBTAoo0nPL7SdjmfAJs_cXzIScMNw7exDXk1NurUn2XeL7qxkKhxhu86PAYwpI0._GeiervpswZkH3R7-im9CVym8SNtHu1ZZ4ATEciZTUg&qid=1722218817&sr=8-1" class="button" target="_blank" aria-label="link to buy the book from amazon.com.au">Buy the Book</a>
+                    </p>
+                    <p><br></p>
+                </div>   
+            </div>
+            <!-- The resources section allows users to access all of the materials associated with the 
+                month's book without having to look for them. -->
+            <p><br></p>
+            
+            <div id="june_meeting">
+                <h2 id="resources">August Book Club Meeting</h2>
+                <p>
+                    <strong>August 31st at 10:00 AM, AEST</strong>
+                </p>
+                <p id="last">
+                    Don't miss out! Mark it in your calendar now.
+                </p>
+                <img id="reading-girl" src="Images/ai-generated-8807332_1280.png" alt="girl sitting on a chair reading a book">
+            </div>
+            <h2 id="resources">Resources</h2>
+            <div class="resource-grid">
+                <div class="grid-item">
+                    <a href="august_discussion_questions.html" aria-label="Discussion Questions Link">
+                        <img src="Images/21.png" alt="Discussion Questions">
+                    </a>
+                        <p><b>Discussion Questions</b></p>
+                        <p>Click here to see the <b>book club discussion questions</b> for <i>Uprooted by Naomi Novik</i> to start your very own discussion with your friends, or get inspiration
+                            for the chat forums.
+                        </p>
+                    
+                </div>
+                <div class="grid-item">
+                    <a href="august_meeting.html" aria-label="Book Club Meetings Link">
+                        <img src="Images/31.png" alt="Book Club Meeting">
+                    </a>
+                        <p><b>Book Club Meeting</b></p>
+                        <p>Click here to see find out about when the <b>book club meeting</b> is for <i>Uprooted by Naomi Novik</i> and mark it in your calendar. Look out for the zoom link and code.
+                        </p>
+                    
+                </div>
+                <div class="grid-item">
+                    <a href="review_uprooted.html" aria-label="Review link">
+                        <img src="Images/review.png" alt="review">
+                    </a>
+                        <p><b>Review</b></p>
+                        <p>Click here to see the <b>review</b> of <i>Uprooted by Naomi Novik</i>. What are your thoughts on the book?
+                        </p>
+                    
+                </div>
+                
+            </div>
+            <p><br></p>
+            <!-- The social networking feed was added to the bottom of the home page to keep users engaged 
+                for the entire page. It also shows the latest post so that users can easily stay up to 
+                date with the most recent activity.-->
+            <h1>Keep Up With the Latest</h1>
+            <div id="curator-feed-new-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+            </div>
+            <p><br></p>
+            <!-- The footer offers links to the club's social media accounts. 
+                So far, I've only opened an Instagram account.  
+                It also features sections for contacting the club, its services, privacy policy, and 
+                terms and conditions. There is also a copyright tag. The footer was added in response 
+                to peer feedback and to make the website feel complete. -->
+                
+    
+                <footer>
+                    <div class="footer">
+                        <div class="row">
+                            <a href="https://www.facebook.com/profile.php?id=61561854519977" target="_blank" aria-label="visit the fantasy book club's facebook page"><img src="Images/facebook-icon-white-png.png" alt="white facebook icon"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/the_fantasy_book_club/" target="_blank" aria-label="visit the fantasy book club's instagram page"><img src="Images/instagram-white-icon.png" alt="white instragram icon"><i class="fa fa-instagram"></i></a>
+                            <a href="https://x.com/thfntsybookclub" target="_blank" aria-label="visit the fantasy book club's x page"><img src="Images/x-social-media-white-icon.png" alt="white x icon"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="row">
+                            &#169; 2024 The Fantasy Book Club - All rights reserved 
+                        </div>
+                        <div class="table-container">
+                            <table id="sitemap">
+                                <tr>
+                                    <th>Information</th>
+                                    <th>Resources</th>
+                                    <th>Contact</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="index.html" aria-label="go to the home page">Home</a></td>
+                                    <td><a href="2024.html" aria-label="go to the featured books of 2024 page">2024</a></td>
+                                    <td>Email: thefantasybookclub422@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="subscribe.html" aria-label="go to the subscribe page">About</a></td>
+                                    <td><a href="discussion_questions.html" aria-label="go to the discussion questions page">Book Club Meetings</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="feedback.html" aria-label="go to the feedback page">Feedback</a></td>
+                                    <td><a href="book_club_meetings.html" aria-label="go to the book club meeting page">Reviews</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="about.html" aria-label="go to the about page">Subscribe</a></td>
+                                    <td><a href="reviews.html" aria-label="go to the reviews page">Cover Artists</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a href="authors.html" aria-label="go to the authors page">Authors</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a href="cover_artists.html" aria-label="go to the cover artists page">Discussion Questions</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a href="quizzes.html" aria-label="go to the quizzes page">Quizzes</a></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </footer>
+            <!-- The countdown script simply counts down to May 24, 2024, at 11:59:00, updating the display
+                every second. This is so the user knows when to expect content on the current months featured 
+                book. -->
+            <!-- <script src='countdown.js'></script> -->
+            <!-- I created a script that identifies which page the user is on and highlights it in grey 
+                in the navbar, bolding the content. This is in response to peer feedback and will assist 
+                the user in navigating the website. -->
+            <script src='current-page-script.js'></script>
+            <script src="curator-feed.js"></script>
+            
+        </body>
+    </html>
+

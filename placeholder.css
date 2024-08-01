@@ -1,0 +1,10 @@
+/* Center the dragon image horizontally */
+#dragon {
+    display: block; /* Makes the image a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20vw; /* Set maximum width to prevent stretching */
+    position: relative; /* Ensure relative positioning if needed */
+    top: 10px; /* Move the image 10px below */
+    bottom: 10px; /* Move the image 10px above */
+}

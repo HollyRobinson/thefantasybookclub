@@ -1,0 +1,116 @@
+/* this css alters the website for printing purposes */
+@media print { /* the following style will only be applied when the website is being printed */
+
+    body {
+      margin: 0; /*to make sure the content fits on the printing page */
+      color: #000; 
+      background-color: #fff; /*change the background colour to white to reduce printing costs */
+      background: none; /*again this rule is to reduce printing costs */
+    }
+
+    /* Style the links */
+    a {
+        color: black; /*black font colour for the white background*/
+    }
+       
+    a:visited {
+        color: black; 
+    }
+
+    label {
+        color: black;
+    }
+
+    input[type="reset"],
+    input[type="submit" i] {
+        color: black; /* remove the orignial text and background colour to use less ink when printing */
+        background-color: white;
+    }
+
+    #source-log-table { /*adjust size to fit printing paper */
+        margin-top: 0;
+        width: 10%; 
+        margin-left: 0; 
+        margin-right: 0;
+        border: 1px solid black; 
+    }
+
+    #source-log-table caption {
+        color: black;
+    }
+
+    #source-log-table th {
+        background-color: white;
+        color: black;
+    }
+
+    #source-log-table td {
+        border: 1px solid black; /* change the border to black for the white background */
+        color: black;
+        background-color: transparent;
+    }  
+    
+    button.previous {
+        background: none;
+        color: black;
+    }
+
+    button.next {
+        background: none;
+        color: black;
+    }
+
+    .image-grid #label {
+        color: black;
+    }
+
+    .image-grid {
+        margin: 0; /*move the images to fit onto the print page */
+    }
+
+    .image-grid img {
+        height: 300px; /*reduce image size to fit more on one page */
+    }
+
+    table {
+        border: 2px solid black; 
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        border-bottom: none; 
+        color: black; 
+    }
+    
+    p {
+        color: black; 
+    }
+    
+    .navbar a {
+        color: black; 
+    }
+
+    #coming-soon {
+        color: black;
+    }
+    
+    #coming-soon-text {
+        color: black;
+    }
+    
+    .coming-soon {
+        border: none;
+    }    
+    
+    .footer{
+        background:white;
+    }
+        
+    .footer .row{
+        color:black;
+    }
+        
+    .footer .row a{
+        color:black;
+    }
+
+  }

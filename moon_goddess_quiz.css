@@ -1,0 +1,223 @@
+/* padding and border included in element's total height and width */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+h1 {
+    border-bottom: none;
+    font-size: 48px;
+}
+
+h2 {
+	border-bottom: none;
+  	color: black;
+  	margin: 0 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+    background: url('https://cdn.cara.app/production/posts/3c5ac84e-76e0-4873-b323-6ab31e9f57de/Grace%20Zhu-P9yL6n8WESMvCMAN-24GF-DotMG-endpaper-2---render-2-Recovered-copy.jpg') center center/cover fixed no-repeat;
+  }
+
+.quiz-container,
+.result {
+  	background: url('https://cdn.cara.app/production/posts/3c5ac84e-76e0-4873-b323-6ab31e9f57de/Grace%20Zhu-P9yL6n8WESMvCMAN-24GF-DotMG-endpaper-2---render-2-Recovered-copy.jpg') center center/cover fixed no-repeat;
+}
+
+.quiz-container {
+	padding: 3rem;
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    min-height: 100vh;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: black;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.question {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+  
+.option {
+    padding: 1rem;
+    color: black;
+    width: 80%;
+    transition: all 0.3s;
+    font-size: 18px;
+}
+
+.option:hover {
+    background: rgba(169,157,148, 0.4);
+}
+  
+.option input:checked .option {
+    background: #08038c;
+    color: #000;
+}
+
+.controls > * {
+    margin: 1rem;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    font-weight: 300;
+    color: white;
+    outline: none;
+}
+
+button.previous {
+    background: #352A1B;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    border-radius: 5px;
+    transform: scale(0.98);
+    transition: all 0.2s;
+}
+
+button.previous:hover {
+    background-color: #B4A79D; /* Color for the submit button on hover */
+    color: black;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button.next {
+    background: #67787a;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    border-radius: 5px;
+    transform: scale(0.98);
+    transition: all 0.2s;
+}
+
+button.next:hover {
+    background-color: #add5db; /* Color for the reset button on hover */
+    color: black;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button.restart {
+    background: #add5db;
+    color: black;
+    margin-bottom: 1rem;
+    transition: all 0.4s;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+    font-size: 28px;
+}
+
+button.restart:hover {
+    background-color: #67787a; /* Color for the reset button on hover */
+    color: white;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+ 
+.result {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    min-height: 100vh;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+}
+  
+.final-score {
+    color: white;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+}
+  
+.summary {
+    color: black;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.summary h1 {
+    align-self: center;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 0.9px;
+}
+
+.result img {
+  	width: 30%;
+  	margin: 0 auto; /* Center the image horizontally */
+  	display: block; /* Ensure the image is treated as a block element */
+  	height: auto;
+  	padding: 10px 0px;
+}
+
+p {
+  	margin: 20px 10%;
+  	color: black;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    font-family: 'Garamond', serif;
+    color: black;
+}
+
+figcaption a {
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+
+@media screen and (max-width: 650px) {
+    .title {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+}

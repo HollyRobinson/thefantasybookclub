@@ -1,0 +1,311 @@
+/* Styling for the bookshelf image */
+#book_shelf_background {
+    width: 100%; 
+}
+
+/* Styling for the image wrapper */
+.image_wrapper { 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    /* border-bottom: none; */
+}
+/* puts the image next to the text */
+.moon_description_wrapper {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0.5fr 1fr;/*adjust the layout of image and text*/
+    column-gap: 5px;
+    margin: 0% 10%;
+}
+   
+img {
+    max-width: 100%;
+}
+
+#rose{
+    width: 100%;
+}
+
+#book {
+    margin: 0;
+    
+}
+
+#book-caption {
+    /* position: absolute; */
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+}
+
+figcaption a {
+    color: white;
+}
+
+figcaption a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#curator-feed-default-feed-layout {
+    max-height: 250vh;
+}
+
+.crt-widget.crt-widget-carousel .crt-carousel-slider {
+    justify-content: center;
+}
+
+#sue_lynn {
+    width: 25%;
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+    padding-bottom: 10px;
+}
+
+
+/* Styling for the overlay */
+.overlay {
+    position: absolute;
+}
+
+/* Styling for the logo in the body of the website */
+#white_logo {
+    width: 30%;
+}
+
+/* Styling for the paragraphs */
+p {
+    text-align: center;
+    letter-spacing: 0.9px; /* Adjust letter spacing */
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+#open_book {
+    max-height: 35vh;
+}
+
+#coming-soon {
+    font-size: 32px;
+    color: white;
+}
+
+#coming-soon-text {
+    color: white;
+}
+
+.coming-soon {
+    margin: 0 10%;
+    border: 4px solid #cfc1b6;
+}
+
+#amphora {
+    max-height: 60vh;
+}
+
+#demo {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0px;
+    font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    text-decoration: none; /*Remove underline from hyperlinks*/
+    color: white; /*white font colour for darker background*/
+    letter-spacing: 0.9px; /* Adjust letter spacing for readability*/
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    /* gap: 20px; Gap between grid items */
+    margin: 0 10%;
+}
+
+.grid-item {
+    text-align: center; /* Center-align text */
+    text-decoration: none;
+}
+
+.grid-item p {
+    text-decoration: none;
+}
+
+.grid-item img {
+    max-width: 60%; /* Make sure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.grid-item img:hover {
+    transform: scale(1.2); /* Scale the image to 1.5 times its original size */
+    
+    transition:0.5s
+}
+
+#resources {
+    border-bottom: none;
+}
+
+a.button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #67787a; /*for links with information about the site*/
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 10px; /* Space between grid items */
+}
+
+.info img {
+    width: 100%; /* Make images fill their grid cell */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#curator-feed-new-feed-layout {
+    background-color: #a99d94;
+    margin: 0 10%;
+}
+
+#micaela {
+    border-radius: 50%;
+    max-width: 15vw;
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+    padding-bottom: 10px;
+}
+
+.poll-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 5%; /* Space between squares */
+    /* width: 50%; */
+    max-width: 100%;
+    /* height: 50%; */
+    max-height: 100%;
+    margin: 0 15% 10% 15%;
+}
+
+.poll-container img {
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.poll-item {
+    background-color: white;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+}
+
+
+
+.poll {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.typeform-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%; */
+    margin: 0 10%;
+}
+
+/* [typeform-container] > div {
+    width: 100%;
+    max-width: 600px; 
+    height: 70vh; 
+} */
+
+#june_meeting {
+    background-color:  rgba(103, 120, 122, 0.5);
+    margin: 0 20%;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center align the text */
+}
+
+#june_meeting img {
+    max-width: 20vw;
+    padding: 20px 0;
+}
+
+h3 {
+    border-bottom: none;
+    text-align: center;
+}
+
+.clear {
+    clear:left
+}
+
+.buy-the-book {
+    margin: 0 10%;
+}
+
+.buy-the-book p {
+    margin: 0 0;
+}
+
+.buy-the-book img {
+    float: left;
+    max-width: 22vw;
+}
+
+#author {
+    text-align: center;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 650px) {
+    .curator-feed-item img {
+        max-width: 100%; /* Ensure the image takes up the full width of its container */
+        height: auto; /* Maintain aspect ratio */
+        min-width: 150px; /* Set a minimum width to prevent the image from shrinking too much */
+    }
+
+    /* Optionally, you can adjust the container to ensure proper spacing */
+    .curator-feed-item {
+        padding: 10px; /* Add some padding around the images */
+    }
+}
+

@@ -1,0 +1,119 @@
+#kuri_huang {
+    /* size of the profile photo */
+    max-width: 25vw; 
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 0px;
+    /* text neater with justify */
+    text-align: justify;
+}
+
+a {
+    /* way to display the source link */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+}
+
+.media-icons {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.media-icons a {
+    margin: 0 10px; /*Adjust spacing between icons*/
+}
+
+.media-icons img {
+    width: 45px; /* Adjust icon size */
+}
+
+.media-icons img:hover {
+    transform: scale(1.15);
+    transition:0.5s;
+}
+
+#label {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    margin: 0 18.875px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 0 10%;
+}
+
+.image-grid img {
+    max-width: auto; /* Ensure images don't exceed container width */
+    height: 500px; /* Set a fixed height for the images */
+    /* justify-content: center; */
+    object-fit: cover; /* Crop the images to fit the specified height */
+    /* align-items: center; */
+}
+
+#micaela {
+    border-radius: 50%;
+    max-width: 25vw; 
+    padding-bottom: 10px;
+}
+
+
+
+.image-grid a {
+    text-decoration: underline;
+}
+
+#info {
+    text-indent: 50px;
+}
+
+#cliff{
+    text-indent: 40px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+}
+
+figcaption a {
+    text-decoration: underline;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr; /* Change to one column for smaller screens */
+    }
+    
+    .image-grid img {
+        height: auto; /* Adjust height dynamically */
+    }
+}

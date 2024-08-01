@@ -1,0 +1,24 @@
+/* Separate links for just information about the site */
+#artist_links {
+    margin-left: 10%; 
+    margin-right: 10%;
+
+}#artist_links a:hover {
+    background-color: white; /*for links throughout the website*/
+    color: black;
+    padding: 10px 20px;
+}
+
+
+
+#artist_links a {
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+#artist_links p {
+    margin-bottom: 10px; 
+}
+

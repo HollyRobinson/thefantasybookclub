@@ -1,0 +1,51 @@
+/* Separate links for the conent pertaining to the book club */
+#book_club_links {
+    background-color: white;
+    margin-left: 20%; /* Set margin from the left edge of the window */
+    margin-right: 20%; /* Set margin from the right edge of the window */
+    padding: 10px 20px; 
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+#book_club_links a:hover {
+    background-color: #a99d94; /*for links with information about the site*/
+    color: white;
+    padding: 10px 20px;
+}
+
+#book_club_links a {
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+#white_logo{
+    position: relative; /* Position the image relative to its container */
+    top: 10px; /* Move the image 10px below */
+    bottom: 10px; /* Move the image 10px above */
+    width: 40%; /*image stays at 40% of window at all times*/
+    margin-bottom: 20px;
+}
+
+/* Separate links for just information about the site */
+#info_links {
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+#info_links a:hover {
+    background-color: white; /*for links throughout the website*/
+    color: black;
+    padding: 10px 20px;
+}
+
+#info_links a {
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+}
+
+#info_links p {
+    margin-bottom: 10px; 
+}

@@ -1,0 +1,83 @@
+#rose {
+    max-width: 27vw;
+}
+.moon_description_wrapper {
+    display: grid;
+    align-items: flex-start; 
+    grid-template-columns: 0.4fr 1fr;/*adjust the layout of image and text*/
+    column-gap: 20px;
+    margin: 0% 10%;
+}
+
+.moon_description_wrapper p{
+    text-align: left;
+}
+figcaption {
+    color: white;
+}
+
+figcaption a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.clear {
+    clear:left
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 20px 0;
+    text-align: left;
+    border-bottom: none;
+}
+
+h3 {
+    padding: 0;
+}
+
+#star {
+    float: right;
+    max-width: 35%;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    
+}
+.rating-container h2 {
+    margin-right: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.analysis {
+    padding:20px 0;
+}
+
+.h2-exception {
+    margin: 0 10%;
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
+    gap: 10px; /* Gap between grid items */
+    margin: 0% 10%; /* Adjust margins as needed */
+}
+.image-grid img {
+    width: 100%; /* Images fill the grid item */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline spacing */
+}
+
+
+
+.image-grid a:hover {
+    color: black;
+    text-decoration: underline;
+}

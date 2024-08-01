@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <!-- Default CSS file -->
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <!-- Specific CSS file -->
+            <link rel="stylesheet" type="text/css" href="about.css">
+            <!-- Style sheet for printing 
+                changes the website to be printer friendly
+            -->
+            <link rel="stylesheet" type="text/css" href="print.css">
+            <!-- Title of the page -->
+            <title>About</title>
+        </head>
+        <body>
+            <!-- Navigation bar -->
+            <div class="navbar">
+                <a id="home-button" href="index.html" aria-label="go to home page">
+                    <img src="Images/fanatasy_book_club_logo_white_round.png" alt="Fantasy Book Club Logo" class="logo">
+                </a>
+                <!-- These do not contain drop down menus -->
+                
+                <a id="2024" href="2024.html" aria-label="Books of 2024 Page">2024</a>
+                <!-- These do contain drop down menus -->
+                <div class="dropdown">
+                    <button class="dropbtn" aria-label="Discover Dropdown">Discover</button>
+                    <!-- contains links to content relating to the featured books -->
+                    <div class="dropdown-content">
+                        <a href="book_club_meetings.html" aria-label="Book Club Meetings Page">Book Club Meetings</a>
+                        <a href="reviews.html" aria-label="Reviews Page">Reviews</a>
+                        <a href="cover_artists.html" aria-label="Cover Artists Page">Cover Artists</a>
+                        <a href="authors.html" aria-label="Authors Page">Authors</a>
+                        <a href="discussion_questions.html" aria-label="Discussion Questions Page">Discussion Questions</a>
+                        <a href="quizzes.html" aria-label="Quizzes Page">Quizzes</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" aria-label="Explore Dropdown">Explore</button> 
+                    <!-- contains links with info about the site -->
+                    <div class="dropdown-content">
+                        <a href="about.html" aria-label="About Page">About</a>
+                        <!-- <a href="sourcelog.html" aria-label="Source Log Page">Source Log</a> -->
+                        <a href="sitemap.html" aria-label="Sitemap Page">Sitemap</a>
+                        
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn" aria-label="Engage Dropdown">Engage</button>
+                    <!-- contains links where users can engage with others -->
+                    <div class="dropdown-content">
+                        <a href="feedback.html" aria-label="Feedback Page">Feedback</a>
+                        <a href="subscribe.html" aria-label="Subscription Form Page">Subscribe</a> 
+                        <!-- <a href="chat_forums.html" aria-label="Chat Forums Page">Chat Forums</a> -->
+                    </div>
+                </div> 
+                
+            </div>
+            <!-- Heading for the page -->
+            <h1>About</h1>
+            <!-- The Fantasy Book Club logo -->
+            <img id="white_logo_round" src="Images/fanatasy_book_club_logo_white_round.png" alt="Fantasy Book Club Logo" class="center">
+			<p><br></p>
+            <!-- The video is intended to provide a visual representation of the 
+                text on the remainder of the page. It's concise and to the point to keep users interested.-->
+			<div id="video" class="container">
+				<video controls>
+					<source src="Images/The Fantasy Book Club - Made with Clipchamp.mp4" type="video/mp4">
+				</video>
+			</div>
+            
+            <div class="custom-dropdown" onclick="toggleDropdown()">
+                <button class="dropdown-button" aria-label="sources drop down button">Sources</button>
+                <div id="myDropdown" class="custom-dropdown-content">
+                    <p>
+                        Music by Calvin Clavier. From <a href="https://pixabay.com/music/modern-classical-golden-hour-beautiful-piano-music-203835/" target="_blank" aria-label="visit pexels.com">Pixabay</a>.
+                    </p>
+                    <p>
+                        Woman at home using laptop. Video by Ivan Samkov. From <a href="https://www.pexels.com/video/woman-at-home-using-laptop-7623870/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+                    </p>
+                    <p>
+                        Woman reading and using a laptop. Video by Pavel Danilyuk. From <a href="https://www.pexels.com/video/studying-studying-from-home-4017062/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+                    </p>
+                    <p>
+                        Woman having a video call. Video by Katrin Bolovtsova. From <a href="https://www.pexels.com/video/woman-having-a-video-call-4053047/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+                    </p>
+                    <p>
+                        A Woman Writing On A Journal. Video by Taryn Elliott. From <a href="https://www.pexels.com/video/writing-viewpoint-outdoors-thinking-4596337/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+                    </p>
+                    <p>
+                        A Woman Writing on a Sheet of Paper. Video by Ivan Samkov. From <a href="https://pexels.com/video/a-woman-writing-on-a-sheet-of-paper-6815463/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+                    </p>
+                    <p>
+                        Woman Painting on Her Canvas. Video by Antoni Shkraba. From <a href="https://www.pexels.com/video/woman-painting-on-her-canvas-4463164/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+
+                    </p>
+                    <p>
+                        Friends Meeting In A Cafeteria. Video by Pavel Danilyuk. From <a href="https://www.pexels.com/video/friends-meeting-in-a-cafeteria-5359032/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+
+                    </p>
+                    <p>
+                        People Having Conversation while Sitting on a Grass. Video by Olia Danilevich. From <a href="https://www.pexels.com/video/people-having-conversation-while-sitting-on-a-grass-4625278/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+
+                    </p>
+                    <p>
+                        Students Doing Their Research In The Library. Video by Cottonbro Studio. From <a href="https://www.pexels.com/video/students-doing-their-research-in-the-library-6334253/" target="_blank" aria-label="visite pexels.com">Pexels</a>.
+
+                    </p>
+                    <p>
+                        Boat on Milky Way Ocean. Photo by jplenio. From <a href="https://pixabay.com/photos/ocean-milky-way-boat-sailing-3605547/" target="_blank" aria-label="visite pixabay.com">Pixabay</a>.
+
+                    </p>
+                    <p>
+                        Door Opening. Video by Videos_Investors. From <a href="https://pixabay.com/videos/door-green-screen-door-opening-89272/" target="_blank" aria-label="visite pixabay.com">Pixabay</a>.
+
+                    </p>
+                    <p>
+                        Book Drawing Flipping Through Pages. GIF by Tilixia Summer. From <a href="https://pixabay.com/gifs/bible-book-flip-pages-3417/" target="_blank" aria-label="visite pixabay.com">Pixabay</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+			<p><br></p>
+            <h2>My Why</h2>
+            <p>
+                <!-- Image of a group reading -->
+                <img id="group_reading" src="Images/group_reading.png" alt="Group of People Reading and Discussing Books" class="inline-image">
+                <!-- Text explaining the motivation behind the Fantasy Book Club -->
+                The best stories I read when I was a kid were ones where reality played no part. I was captivated by the characters 
+                that were beyond my imagination, the ones with magic and that sense of the unexplainable. It was through reading C.S. 
+                Lewis' The Chronicles of Narnia that I first fell in love with fantasy. Lewis had managed to capture how I felt about 
+                the genre and put it in words. He painted a picture of a beautiful world in which people like you and me have the 
+                potential to exist in such a wonderful world and to be something we never expected to be. For me, reading fanatasy 
+                allows for the possibility of exploring worlds we could never have imagined and be inspired by the characters that we 
+                want to become. 
+            </p>
+            <p>
+                <!-- Image of a group on a couch -->
+                <img id="group_on_couch" src="Images/group_on_couch.png" alt="Group of People Reading and Discussing Books on a Couch" class="inline-image">
+                <!-- Continuing the explanation of the motivation behind The Fantasy Book Club -->
+                I created The Fantasy Book Club to find like minded people and to bring them on my journey of discovery. Even though I 
+                have been reading fantasy for most of my life, I haven't begun to uncover the millions of worlds and stories that exist. 
+                That thought is the most exciting thing. I want to discover what the beautiful people of this world imagine and what 
+                stories they want to tell, whether they are true stories or just stories they want to be true.
+
+                I also have personally dealt with social anxiety and the pressure to particpate in social events. Because of this, 
+                users of this website have a choice about how much interaction they have with other users and the content. Nothing is 
+                mandatory. You get what you want out of the experience. 
+            </p>
+            <p><br></p>
+            <p id="sources">
+                Images: Woman in Red Long Sleeve Shirt Holding a Girl in White Long Sleeve Shirt. 
+                Photo by Cottonbro Studio. Image from <a href="https://www.pexels.com/photo/woman-in-red-long-sleeve-shirt-holding-a-girl-in-white-long-sleeve-shirt-4778669/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+                Man in Green Sweater Sitting Beside Woman in Red and White Stripe Shirt. Photo by Cottonbro Studios. Image from <a href="https://www.pexels.com/photo/man-in-green-sweater-sitting-beside-woman-in-red-and-white-stripe-shirt-5036258/" target="_blank" aria-label="visit pexels.com">Pexels</a>.
+            </p>
+            <!-- Personal introduction section -->
+            <h2>Who I Am</h2>
+            <p>
+                My name is Holly Robinson. I'm a nearly graduated master's student from Australia. I grew up in a small (population 
+                of 4,600 small) coastal town in New South Wales. My parents fostered a love of books in me from a very young age. 
+                They often tell me how they read to me every night, right from the day I was born. So my addiction is completely 
+                their fault and the reason I hoard books and spend all my money. Growing up my family were really the only other 
+                people I encountered that were equally obsessed with books. Still to this day I am yet to share this passion 
+                with the people in my closest circle. I want to change that,  so I'm glad you're here.
+            </p>
+            <!-- Our story section -->
+            <h2>Our Story</h2>
+            <p>
+                We are still very much in the beginning stages of The Fantasy Book Club. But plans are already in place for the future. 
+                I want this club to grow into a vibrant community that supports one another in their discovery journey and share their 
+                passion. And let's hope we succeed in providing a convenient and comprehensive fantasy book club experience. 
+            </p>
+            <p>
+                Thank you for being a part of our story!
+            </p>
+			<p><br></p>
+            <!-- The footer offers links to the club's social media accounts. 
+                So far, I've only opened an Instagram account.  
+                It also features sections for contacting the club, its services, privacy policy, and 
+                terms and conditions. There is also a copyright tag. The footer was added in response 
+                to peer feedback and to make the website feel complete. -->
+                <footer>
+                    <div class="footer">
+                        <div class="row">
+                            <a href="https://www.facebook.com/profile.php?id=61561854519977" target="_blank" aria-label="visit the fantasy book club's facebook page"><img src="Images/facebook-icon-white-png.png" alt="white facebook icon"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/the_fantasy_book_club/" target="_blank" aria-label="visit the fantasy book club's instagram page"><img src="Images/instagram-white-icon.png" alt="white instragram icon"><i class="fa fa-instagram"></i></a>
+                            <a href="https://x.com/thfntsybookclub" target="_blank" aria-label="visit the fantasy book club's x page"><img src="Images/x-social-media-white-icon.png" alt="white x icon"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="row">
+                            &#169; 2024 The Fantasy Book Club - All rights reserved 
+                        </div>
+                        <div class="table-container">
+                            <table id="sitemap">
+                                <tr>
+                                    <th>Information</th>
+                                    <th>Resources</th>
+                                    <th>Contact</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="index.html" aria-label="go to the home page">Home</a></td>
+                                    <td><a href="2024.html" aria-label="go to the featured books of 2024 page">2024</a></td>
+                                    <td>Email: thefantasybookclub422@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="subscribe.html" aria-label="go to the subscribe page">About</a></td>
+                                    <td><a href="discussion_questions.html" aria-label="go to the discussion questions page">Book Club Meetings</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="feedback.html" aria-label="go to the feedback page">Feedback</a></td>
+                                    <td><a href="book_club_meetings.html" aria-label="go to the book club meeting page">Reviews</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="about.html" aria-label="go to the about page">Subscribe</a></td>
+                                    <td><a href="reviews.html" aria-label="go to the reviews page">Cover Artists</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a href="authors.html" aria-label="go to the authors page">Authors</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a href="cover_artists.html" aria-label="go to the cover artists page">Discussion Questions</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><a href="quizzes.html" aria-label="go to the quizzes page">Quizzes</a></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </footer>
+          <script src='current-page-script.js'></script>
+          <script src="custom-dropdown.js"></script>
+        </body>
+    </html>
+

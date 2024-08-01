@@ -1,0 +1,151 @@
+body {
+    background: url('https://ivanbelikov.com/images/priory/priory.jpg') center center/cover fixed no-repeat;
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 10%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.option {
+    width: 25vw;
+    height: auto;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: border-color 0.3s;
+    margin: 10px;
+}
+
+.option:hover {
+    transform: scale(1.15);
+    transition:0.5s;
+}
+
+.option.selected {
+    border-color: #ff9101;
+}
+
+#total-score {
+    font-size: 22px;
+}
+
+#girls-results {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+#girls-results img {
+    max-width: 22vw; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5%;
+}
+
+#girls-results figcaption {
+    font-size: 18px;
+    display: block;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#description {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    color: black;
+    border-bottom: none;
+    margin: 0;
+}
+
+p {
+    color: black;
+}
+
+#result-button {
+    background-color: #ffda5b;
+    font-size: 18px;
+    font-family: 'Garamond', serif;
+    border: 0;
+    padding: 10px 20px;
+    margin: 5%;
+}
+
+#clear {
+    background-color: #ffda5b;
+    font-size: 18px;
+    font-family: 'Garamond', serif;
+    border: 0;
+    padding: 10px 20px;
+    margin: 5%;
+}
+
+#result-button:hover {
+    cursor: pointer;
+    background-color: #ff9101;
+    padding: 10px 20px;
+}
+
+#clear:hover {
+    background-color: #ff9101;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+}
+figure {
+    margin: 0;
+}
+
+figcaption {
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    font-family: 'Garamond', serif;
+}
+
+figcaption {
+    color: black;
+}
+
+figcaption a {
+    text-decoration: underline;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}

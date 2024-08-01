@@ -1,0 +1,88 @@
+/* html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+} */
+/* Style the form */
+form {
+    width: 60%; /* Set width of the form */
+    margin-left: 10%; 
+    margin-right: 10%; 
+    letter-spacing: 0.9px; 
+    font-family: 'Garamond', serif; 
+    font-size: 18px;
+    color: white;
+}
+
+/* Styling for labels */
+label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for text inputs, email inputs, and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px; /* Add padding inside the text field */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    letter-spacing: 0.9px; 
+    font-family: 'Garamond', serif; 
+    font-size: 18px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #352A1B; 
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add rounded corners to the submit button */
+    letter-spacing: 0.9px; 
+    font-family: 'Garamond', serif; 
+    font-size: 18px;
+    color: white;
+}
+
+/* Change background color of submit button on hover */
+input[type="submit"]:hover {
+    background-color: #B4A79D; /* Color for the submit button on hover */
+    color: black;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling for the reset button */
+input[type="reset"] {
+    background-color: #67787a; 
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    color: #ffffff;
+    letter-spacing: 0.9px; 
+    font-family: 'Garamond', serif; 
+    font-size: 18px;
+}
+
+/* Change background color of reset button on hover */
+input[type="reset"]:hover {
+    background-color: #93adb1; /* Color for the reset button on hover */
+    color: black;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling for radio buttons */
+input[type="radio"]{
+    margin-bottom: 30px; /* Add bottom margin to radio buttons */
+}
+
+/* Add top margin to the first radio button */
+input[type="radio"]:first-of-type{
+    margin-top: 30px; /* Add top margin */
+}

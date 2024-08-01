@@ -1,0 +1,145 @@
+/* Styling for the body */
+body {
+    background-color: #a99d94;
+    font-family: 'Garamond', serif; 
+    color: white;
+    letter-spacing: 0.9px; 
+}
+
+/* Styling for the white round logo */
+#white_logo_round{
+    position: relative; 
+    top: 10px; 
+    bottom: 10px; 
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+/* have the image in line with the text */
+#group_reading.inline-image {
+    float: right;
+    margin: 10px 15px 10px 15px;
+    border-radius: 30px; 
+    width: 300px;
+}
+
+/* have the image in line with the text */
+#group_on_couch.inline-image {
+    float: left;
+    margin: 10px 15px 10px 15px;
+    border-radius: 30px; 
+    width: 300px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: absolute;
+    max-height: 80vh;
+    max-width: 90%;
+    object-fit: contain; /*Ensure video maintains aspect ratio without cropping*/
+}
+
+/* Styling for paragraphs */
+p {
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 20px; /* Add an indent of 20px */
+    text-align: justify;
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+p:first-child {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+/*only rpund off the top paragraph*/
+p:first-of-type {
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    margin-top: 10px; /* Add margin to the top of the first paragraph */
+}
+
+/*only round off the last paragraph*/
+p:last-of-type {
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    margin-bottom: 10px; /* Add margin to the bottom of the last paragraph */
+}
+
+/* Basic CSS for dropdown */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 15%;
+    padding-top: 20px;
+    font-family: 'Garamond', serif;
+}
+
+.dropdown-button {
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.dropdown-button:hover {
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.custom-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 70vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.clear {
+    clear: left;
+}
+
+.custom-dropdown-content p {
+    color: black;
+    text-align: left;
+    padding: 5px;
+    margin: 0;
+    /* display: inline; */
+    font-size: 18px;
+}
+
+.custom-dropdown-content a {
+    color: black;
+}
+
+.custom-dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+#sources {
+    text-indent: 0;
+}
+
+#sources a:hover {
+    color: black;
+    text-decoration: underline;
+}

@@ -1,0 +1,111 @@
+// constant variable containing the array of quiz questions and values associated with each answer
+// 1 is the value that matches Liwei
+// 2 is the value that matches Xingyin
+// 3 is the value that matches Wenzhi
+const questions = [
+    {
+      "question": "What would you do if your parents were yelling at you?",
+      "answer1": "Sit quietly",
+      "answer1Total": "1",
+      "answer2": "My parents wouldn't be yelling at me",
+      "answer2Total": "2",
+      "answer3": "Yell back",
+      "answer3Total": "3",
+      "answer4": "Try to leave",
+      "answer4Total": "1",
+      "answer5": "Feel guilty for disappointing them",
+      "answer5Total": "2",
+      "answer6": "Defend myself",
+      "answer6Total": "3"
+    },
+    {
+        "question": "What would you do if the people you love were in danger?",
+        "answer1": "Run into the danger with them",
+        "answer1Total": "1",
+        "answer2": "Do everything you can to stop the danger",
+        "answer2Total": "2",
+        "answer3": "Hide them from the danger",
+        "answer3Total": "3",
+        "answer4": "Put yourself in harm's way",
+        "answer4Total": "1",
+        "answer5": "Sacrifice yourself",
+        "answer5Total": "2",
+        "answer6": "Lie to them to keep them out of danger",
+        "answer6Total": "3"
+    },
+    {
+        "question": "What is your favourite hobby?",
+        "answer1": "Painting",
+        "answer1Total": "1",
+        "answer2": "Playing a musical instrument",
+        "answer2Total": "2",
+        "answer3": "Collecting things",
+        "answer3Total": "3",
+        "answer4": "Reading",
+        "answer4Total": "1",
+        "answer5": "Archery",
+        "answer5Total": "2",
+        "answer6": "Solving puzzles",
+        "answer6Total": "3"
+    },
+    {
+        "question": "Which insult would hurt you most? You are ...",
+        "answer1": "Heartless",
+        "answer1Total": "1",
+        "answer2": "Weak",
+        "answer2Total": "2",
+        "answer3": "Incompetent",
+        "answer3Total": "3",
+        "answer4": "Dishonest",
+        "answer4Total": "1",
+        "answer5": "Selfish",
+        "answer5Total": "2",
+        "answer6": "a Failure",
+        "answer6Total": "3"
+    },
+    {
+        "question": "Which quote speaks to you the most?",
+        "answer1": "We should appreciate the flower, regardless of its roots.",
+        "answer1Total": "1",
+        "answer2": "Some scars are carved into our bones - a part of who we are, shaping what we become.",
+        "answer2Total": "2",
+        "answer3": "Why would a falcon want to be a nightingale?",
+        "answer3Total": "3",
+        "answer4": "What use were adventures when there was no one to share them with?",
+        "answer4Total": "1",
+        "answer5": "I hated him now because I had loved him then.",
+        "answer5Total": "2",
+        "answer6": "Titles are inherited, talent might be blood-bound, but true greatness lies within.",
+        "answer6Total": "3"
+    },
+    {
+        "question": "Which pet would you pick?",
+        "answer1": "Golden retriever",
+        "answer1Total": "1",
+        "answer2": "Maine coon cat",
+        "answer2Total": "2",
+        "answer3": "Bearded dragon",
+        "answer3Total": "3",
+        "answer4": "Parrot",
+        "answer4Total": "1",
+        "answer5": "Horse",
+        "answer5Total": "2",
+        "answer6": "Snake",
+        "answer6Total": "3"
+    },
+    {
+        "question": "Where would your dream home be located?",
+        "answer1": "Vineyard",
+        "answer1Total": "1",
+        "answer2": "Forest",
+        "answer2Total": "2",
+        "answer3": "Private island",
+        "answer3Total": "3",
+        "answer4": "Beach",
+        "answer4Total": "1",
+        "answer5": "Countryside",
+        "answer5Total": "2",
+        "answer6": "Mountains",
+        "answer6Total": "3"
+    }
+  ]
