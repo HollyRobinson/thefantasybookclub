@@ -26,9 +26,9 @@ function showResults() {
         <p>If you got between <strong>7 and 10</strong>, you are more like Tan&#233;.</p>
         <p>If you got between <strong>11 and 14</strong>, you are more like Eadaz.</p>
         <div id="girls-results">
-            <img src="Images/tane.png">
+            <img src="tane.png">
             <figcaption>Tan&#233;</figcaption>
-            <img src="Images/eadaz.png">
+            <img src="eadaz.png">
             <figcaption>Eadaz</figcaption>
             
         </div>
