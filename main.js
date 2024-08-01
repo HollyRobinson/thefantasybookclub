@@ -91,7 +91,7 @@ function loadNextQuestion () {
                     <h2>Here are your results!</h2>
                         <p>1 - 10: Liwei</p>
                         <figure>
-                            <img src="Images/liwei.png" alt="Artist impression of liwei">
+                            <img src="liwei.png" alt="Artist impression of liwei">
                             <figcaption> Art by Grace Zhu. Image from <a href="https://www.suelynntan.com/books" target="_blank">Sue Lyn Tan</a>.</figcaption>
                         </figure>
                         
@@ -99,7 +99,7 @@ function loadNextQuestion () {
                         loved ones. You prefer community to solitude and have a playful nature.</p>
                         <p>10 - 16: Xingyin</p>
                         <figure>
-                            <img src="Images/xingyin.png" alt="Artist impression of xingyin">
+                            <img src="xingyin.png" alt="Artist impression of xingyin">
                             <figcaption> Art by Grace Zhu. Image from <a href="https://www.suelynntan.com/books" target="_blank">Sue Lyn Tan</a>.</figcaption>
                         </figure>
                         
@@ -107,7 +107,7 @@ function loadNextQuestion () {
                         length to protect those you care about. You prefer solitude to community and have a reserved nature.</p>
                         <p>16 - 21: Wenzhei </p>
                         <figure>
-                            <img src="Images/wenzhi.png" alt="Artist impression of wenzhi">
+                            <img src="wenzhi.png" alt="Artist impression of wenzhi">
                             <figcaption> Art by Grace Zhu. Image from <a href="https://www.suelynntan.com/books" target="_blank">Sue Lyn Tan</a>.</figcaption>
                         </figure>
                         
