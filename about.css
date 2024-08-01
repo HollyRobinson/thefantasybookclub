@@ -93,6 +93,7 @@ p:last-of-type {
     background-color: transparent;
     border: 0;
     color: white;
+    text-decoration: underline;
 }
 
 .dropdown-button:hover {
