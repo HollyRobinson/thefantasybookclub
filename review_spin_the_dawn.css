@@ -81,3 +81,21 @@ p {
     color: black;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 650px) {
+    .moon_description_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #rose {
+        max-width: 58vw;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #captions {
+        padding-top: 10px;
+    }
+}

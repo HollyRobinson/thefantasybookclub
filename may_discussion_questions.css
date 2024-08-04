@@ -153,3 +153,46 @@ figcaption a:hover {
 #scissors {
     max-height: 25%;
 }
+
+@media only screen and (max-width: 768px) {
+    .moon_description_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    #rose {
+        max-width: 80%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    #thieves {
+        max-width: 100%;
+    }
+
+    #belial {
+        max-width: 100%;
+    }
+
+    #magpie {
+        max-width: 80%;
+        float: none;
+    }
+
+    #amphora {
+        max-width: 100%;
+    }
+
+    #hermesPic {
+        max-width: 100%;
+    }
+
+    #dresses {
+        max-width: 100%;
+    }
+
+    #edan {
+        max-width: 100%;
+    }
+}

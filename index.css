@@ -199,10 +199,11 @@ a.button:hover {
 
 #micaela {
     border-radius: 50%;
-    max-width: 15vw;
+    max-height: 30vh;
     margin: 0 auto; /* Center the image horizontally */
     display: block; /* Ensure the image is treated as a block element */
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .poll-container {
@@ -218,14 +219,18 @@ a.button:hover {
 }
 
 .poll-container img {
-    max-width: 50%;
+    max-width: 70%;
     justify-content: center;
     align-items: center;
     padding: 5% 0;
 }
 
+figure {
+    margin: 0;
+}
+
 .poll-item {
-    background-color: white;
+    /* background-color: white; */
     /* border: 1px solid #ccc; */
     text-align: center;
 }
@@ -262,10 +267,11 @@ a.button:hover {
     flex-direction: column;
     align-items: center;
     text-align: center; /* Center align the text */
+    padding: 0 10px 10px 10px;
 }
 
 #june_meeting img {
-    max-width: 20vw;
+    max-height: 45vh;
     padding: 20px 0;
 }
 
@@ -295,17 +301,30 @@ h3 {
     text-align: center;
 }
 
+
+
 /* Media query for smaller screens */
 @media screen and (max-width: 650px) {
     .curator-feed-item img {
         max-width: 100%; /* Ensure the image takes up the full width of its container */
         height: auto; /* Maintain aspect ratio */
-        min-width: 150px; /* Set a minimum width to prevent the image from shrinking too much */
+        min-width: 150px; 
     }
 
-    /* Optionally, you can adjust the container to ensure proper spacing */
-    .curator-feed-item {
-        padding: 10px; /* Add some padding around the images */
+    body {
+        font-size: 18px; 
+    }
+
+    .poll-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .moon_description_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .resource-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

@@ -51,3 +51,9 @@
 #info_links p {
     margin-bottom: 10px; 
 }
+
+@media screen and (max-width: 650px) {
+    #white_logo {
+        width: 100%;
+    }
+}

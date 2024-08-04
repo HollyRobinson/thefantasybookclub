@@ -120,4 +120,12 @@ figcaption a:hover {
     .image-grid img {
         height: auto; /* Adjust height dynamically */
     }
+
+    #micaela {
+        max-width: 72vw;
+    }
+
+    #kuri_huang {
+        max-width: 75vw;
+    }
 }

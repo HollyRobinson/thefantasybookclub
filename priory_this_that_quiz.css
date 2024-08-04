@@ -149,3 +149,23 @@ figcaption a:hover {
 a:visited {
     color: black;
 }
+
+@media only screen and (max-width: 768px) {
+    .options {
+        flex-direction: column; /* Stack options vertically */
+        align-items: center; /* Center options horizontally */
+    }
+
+    .option {
+        width: 100%;
+        
+    }
+
+    #girls-results {
+        display: block;
+    }
+
+    #girls-results img {
+        max-width: 80%;
+    }
+}

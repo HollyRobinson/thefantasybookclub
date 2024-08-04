@@ -50,6 +50,11 @@ body {
     font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
+    white-space: normal; /* Allow text to wrap */
+    overflow-wrap: break-word; /* Break long words */
+    word-break: break-word; /* Ensure long words break */
+    text-align: center; /* Center align text */
+    
 }
 
 .question {
@@ -218,6 +223,16 @@ a:visited {
 
 @media screen and (max-width: 650px) {
     .title {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
+        font-size: 0.8em;
+    }
+
+    .result img {
+        width: auto;
+        margin: 0;
+
+    }
+
+    figcaption a {
+        text-decoration: underline;
     }
 }

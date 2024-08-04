@@ -14,6 +14,7 @@
     max-width: 27vw;
     float: left;
     margin: 0 5% 0 0;
+    
 }
 
 .clear {
@@ -37,6 +38,7 @@ a.button:hover {
     max-width: 27vw;
     float: left;
     margin: 0 5% 0 0;
+    
 }
 
 #book-caption {
@@ -50,4 +52,24 @@ a.button:hover {
 #book-caption a:hover {
     color: black;
     text-decoration: underline;
+}
+
+.small-screen-image {
+    display: none;
+}
+
+
+@media screen and (max-width: 650px) {
+    .image-caption {
+        display: none;
+    }
+
+    .small-screen-image {
+        display: block;
+    }
+
+    .small-screen-image figcaption {
+        margin: 0 10%;
+        color: white;
+    }
 }

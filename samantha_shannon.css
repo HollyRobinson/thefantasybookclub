@@ -128,4 +128,12 @@ figcaption a:hover {
     #bookList {
         grid-template-columns: 1fr; /* Change to one column for smaller screens */
     }
+
+    #bookList img {
+        max-width: 80%;
+    }
+
+    #cassandra {
+        max-width: 70%;
+    }
 }
