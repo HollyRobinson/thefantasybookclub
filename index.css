@@ -326,5 +326,13 @@ h3 {
     .resource-grid {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    #june_meeting {
+        margin: 0;
+    }
 }
 
