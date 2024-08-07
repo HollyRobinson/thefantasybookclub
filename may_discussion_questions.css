@@ -160,11 +160,17 @@ figcaption a:hover {
     }
 
     #rose {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .grid-container {
         grid-template-columns: 1fr;
+    }
+
+    figure {
+        margin: 0;
+        border: 0;
+        padding: 0;
     }
 
     #thieves {
@@ -176,7 +182,7 @@ figcaption a:hover {
     }
 
     #magpie {
-        max-width: 80%;
+        max-width: 100%;
         float: none;
     }
 
@@ -194,5 +200,13 @@ figcaption a:hover {
 
     #edan {
         max-width: 100%;
+    }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    #leafDivider {
+        max-width: 85%;
     }
 }
