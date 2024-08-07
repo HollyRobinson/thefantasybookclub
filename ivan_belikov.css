@@ -114,10 +114,10 @@ figcaption a:hover {
     }
     
     .image-grid img {
-        height: auto; /* Adjust height dynamically */
+       max-width: 100%;
     }
 
     #kuri_huang {
-        max-width: 75vw;
+        max-width: 80%;
     }
 }
