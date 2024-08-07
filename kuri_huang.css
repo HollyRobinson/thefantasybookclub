@@ -128,4 +128,8 @@ figcaption a:hover {
     #kuri_huang {
         max-width: 80%;
     }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
 }
