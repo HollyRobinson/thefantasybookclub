@@ -72,4 +72,8 @@ img {
     #book-caption {
         padding-bottom: 10px;
     }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
 }
