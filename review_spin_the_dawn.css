@@ -88,7 +88,7 @@ p {
     }
 
     #rose {
-        max-width: 58vw;
+        max-width: 100%;
     }
 
     .image-grid {
@@ -97,5 +97,19 @@ p {
 
     #captions {
         padding-top: 10px;
+    }
+
+    figure {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    #star {
+        max-width: 60%;
+    }
+
+    .image-grid img {
+        max-width: 100%;
     }
 }
