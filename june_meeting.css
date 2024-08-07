@@ -72,4 +72,8 @@ a.button:hover {
         margin: 0 10%;
         color: white;
     }
+
+    img {
+        max-width: 100%;
+    }
 }
