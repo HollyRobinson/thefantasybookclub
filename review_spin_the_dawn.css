@@ -112,4 +112,8 @@ p {
     .image-grid img {
         max-width: 100%;
     }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
 }
