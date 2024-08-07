@@ -130,10 +130,14 @@ figcaption a:hover {
     }
 
     #bookList img {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     #cassandra {
-        max-width: 70%;
+        max-width: 80%;
+    }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
     }
 }
