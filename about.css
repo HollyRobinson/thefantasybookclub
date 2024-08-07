@@ -144,3 +144,13 @@ p:last-of-type {
     color: black;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+    #white_logo_round {
+        width: 80%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
