@@ -34,7 +34,7 @@ body {
 
 .quiz-container {
 	padding: 3rem;
-    width: 60%;
+    max-width: 60%;
     margin: 5rem auto;
     display: flex;
     flex-direction: column;
@@ -126,11 +126,11 @@ button.next:hover {
 button.restart {
     background: #add5db;
     color: black;
-    margin-bottom: 1rem;
+    border-radius: 5px;
     transition: all 0.4s;
     font-family: "Garamond", sans-serif;
     letter-spacing: 0.9px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 button.restart:hover {
@@ -223,7 +223,7 @@ a:visited {
 
 @media screen and (max-width: 650px) {
     .title {
-        font-size: 0.8em;
+        display: none;
     }
 
     .result img {
@@ -235,4 +235,38 @@ a:visited {
     figcaption a {
         text-decoration: underline;
     }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    .quiz-container {
+        padding: 10px;
+        margin: 0 10%;
+        max-width: 100%;
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .controls > * {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+    
+    button.previous {
+        margin-top: 10px;
+    }
+
+    .final-score {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    button {
+        width: auto;
+    }
+    
 }
