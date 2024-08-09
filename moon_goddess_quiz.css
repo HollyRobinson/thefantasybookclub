@@ -245,6 +245,7 @@ a:visited {
         margin: 0 10%;
         max-width: 100%;
         font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+        margin-top: 10%;
     }
 
     .question {

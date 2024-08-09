@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-	<html lang="en">
+    <html lang="en">
         <head>
             <!-- Default CSS file -->
             <link rel="stylesheet" type="text/css" href="style.css">
             <!-- Specific CSS file -->
-            <link rel="stylesheet" type="text/css" href="feedback.css">
-            <!-- Style sheet for printing 
-                changes the website to be printer friendly
-            -->
+            <link rel="stylesheet" type="text/css" href="cover_artists.css">
             <link rel="stylesheet" type="text/css" href="print.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Title of the page -->
-            <title>Subscription Form</title>
+            <title>Articles</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="icon" href="favicon.ico" type="image/x-icon">
             <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         </head>
@@ -60,42 +58,15 @@
                 </div> 
                 
             </div>
-        	<!-- Heading for the page -->
-            <h1 class="heading">Subscription Form</h1>
-            <!-- subscription form -->
-            <form action="mailto:thefantasybookclub422@gmail.com" method="post" enctype="text/plain">
-                <!-- Name input field -->
-                <label for="name">Your name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Your name is ..." required><br>
-                
-                <!-- Email input field -->
-                <label for="email">Your email address:</label><br>
-                <input type="email" id="email" name="email" placeholder="Your email is ..."><br>
-                
-                <!-- Gender selection -->
-                <label>What is your gender?</label><br>
-                <!-- Radio buttons for gender selection -->
-                <input type="radio" id="male" name="gender" value="Male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="Female">
-                <label for="female">Female</label><br>
-                <input type="radio" id="other_gender" name="gender" value="Other">
-                <label for="other_gender">Other</label><br>
-                <input type="radio" id="prefer_not_to_say" name="gender" value="Prefer not to say">
-                <label for="prefer_not_to_say">I prefer not to say</label><br>
-
-                <!-- favourite book section -->
-                <label>What is you favourite book?</label><br>
-                <textarea id="What is you favourite book?" name="fav_book" rows="4" cols="50" placeholder="Your favourite book is ..."></textarea><br>
-
-                <!-- fantasy interest section -->
-                <label>What drew you to fantasy?</label><br>
-                <textarea id="What drew you to fantasy?" name="fantasy" rows="4" cols="50" placeholder="What drew you to fantasy was ..."></textarea><br>
-                     
-                <!-- Submit and reset buttons -->
-                <input type="submit" value="Send it">
-                <input type="reset" value="Clear">
-            </form>
+            <!-- Heading for the page -->
+            <h1 class="heading">Articles</h1>
+            <div id="container">
+                <!-- Section for book club links -->
+                <p id="artist_links">
+                    <a href="spring_reads.html" aria-label="spring reads of 2024 article">Spring Reads 2024</a>
+                  
+                </p>
+            </div>
             <p><br></p>
             <!-- The footer offers links to the club's social media accounts. 
                 So far, I've only opened an Instagram account.  
@@ -219,6 +190,7 @@
                         
                     </div>
                 </footer>
-            <script src='current-page-script.js'></script>
+          <script src='current-page-script.js'></script>
         </body>
     </html>
+
