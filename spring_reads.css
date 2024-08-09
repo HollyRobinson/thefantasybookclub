@@ -1,0 +1,112 @@
+h2 {
+    border-bottom: none;
+}
+
+figure {
+    /* margin: 0 10%; */
+    margin: 0;
+    padding: 0;
+}
+
+
+.clear {
+    clear: both;
+}
+
+p {
+    /* margin: 0 10%; */
+    text-align: center;
+    margin: 0 10%;
+}
+
+#howl {
+    max-width: 26%;
+    display: block;
+    margin: 0 37%;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Adjust to have two equal columns */
+    margin: 0 10%;
+}
+
+.item-grid p {
+    
+    margin: 0;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+
+.grid-item img {
+    max-width: 75%; /* Ensures the image scales down with its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below images */
+    margin: 0 12%;
+}
+
+#rose {
+    max-width: 80%;
+}
+
+#butterfly {
+    align-self: start;
+}
+
+.border {
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 0;
+   
+}
+
+.border img {
+    max-width: 90%;
+    
+}
+
+#aghoward{
+    max-width: 85%;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#court {
+    max-width: 55%;
+    margin: 0 22%;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-item img {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #howl {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    figcaption {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    #court {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+
