@@ -64,10 +64,6 @@ figcaption a:hover {
     text-decoration: underline;
 }
 
-#curator-feed-default-feed-layout {
-    max-height: 250vh;
-}
-
 .crt-widget.crt-widget-carousel .crt-carousel-slider {
     justify-content: center;
 }
@@ -79,6 +75,9 @@ figcaption a:hover {
     padding-bottom: 10px;
 }
 
+.clear {
+    clear: both;
+}
 
 /* Styling for the overlay */
 .overlay {
@@ -317,6 +316,12 @@ h3 {
 
     .poll-container {
         grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .poll-container img {
+        max-width: 100%;
+        padding: 0;
     }
 
     .moon_description_wrapper {
@@ -333,6 +338,11 @@ h3 {
 
     #june_meeting {
         margin: 0;
+    }
+
+    figure {
+        margin: 0;
+        padding: 0;
     }
 }
 
