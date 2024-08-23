@@ -107,6 +107,22 @@ p {
     max-height: 35vh;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 1x2 grid */
+    align-items: center;
+}
+
+.grid-container h1 {
+    border-bottom: none;
+    margin: 0;
+}
+
+.grid-item-soon {
+    padding: 10px;
+    text-align: center; /* Center-align text */
+}
+
 #coming-soon {
     font-size: 32px;
     color: white;
@@ -122,7 +138,7 @@ p {
 }
 
 #amphora {
-    max-height: 60vh;
+    max-width: 60%;
 }
 
 #demo {
@@ -302,6 +318,7 @@ h3 {
 
 
 
+
 /* Media query for smaller screens */
 @media screen and (max-width: 650px) {
     .curator-feed-item img {
@@ -343,6 +360,18 @@ h3 {
     figure {
         margin: 0;
         padding: 0;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* 1x2 grid */
+    }
+
+    .grid-container p {
+        margin: 0;
+    }
+
+    #amphora {
+        max-width: 100%;
     }
 }
 
