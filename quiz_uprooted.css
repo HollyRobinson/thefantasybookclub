@@ -1,0 +1,234 @@
+body {
+    background: url('https://cdn.pixabay.com/photo/2023/10/31/18/18/forest-8355748_1280.jpg') center center/cover fixed no-repeat;
+}
+
+#question {
+    text-align: center;
+}
+
+span {
+    font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+}
+
+#quiz-container, #result-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 0 10% 10% 10%;
+}
+
+#result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 38%;
+    height: auto;
+}
+
+p {
+    color: black;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.choice {
+    padding: 10px;
+    background-color: #67787a;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice img {
+    max-width: 40%;
+    /* height: 100px; */
+    object-fit: cover;
+    /* border-radius: 5px; */
+    /* margin-bottom: 10px; */
+}
+
+.choice span {
+    font-size: 18px;
+}
+
+.choice:hover {
+    background-color: #819597;
+}
+
+.choice.selected {
+    background-color: #b0ced2;
+}
+
+#next-button {
+    display: block;
+    /* margin: 20px auto 0;
+    padding: 10px 20px; */
+    background-color: #7a726c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    font-size: 18px;
+}
+
+h2 {
+    color: black;
+    border-bottom: none;
+    text-align: center;
+}
+
+#next-button:hover {
+    background-color: #cfc2b7;
+    color: black;
+}
+
+.navigation-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;    /* Center align buttons horizontally */
+    margin-top: 20px;
+}
+
+.navigation-buttons button {
+    background-color: #352A1B; /* Adjust color as needed */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space between buttons */
+}
+
+.clear {
+    clear: both;
+}
+
+#prev-button {
+    /* margin-bottom: 0; 
+    margin-top: 20px; */
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+}
+
+.navigation-buttons button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.navigation-buttons button:hover {
+    background-color: #98794e; /* Adjust hover color as needed */
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#restart-button {
+    display: block;
+        margin: 20px auto 0;
+        padding: 10px 20px;
+        background-color: #263627;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+        font-size: 18px;
+        
+}
+
+#restart-button:hover {
+    background-color: #628765;
+    color: black;
+}
+
+@media screen and (max-width: 650px) {
+    .choices {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #result-image {
+        max-width: 100%;
+    }
+
+    span {
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+    }
+
+    .choice span {
+        font-size: 18px;
+    }
+
+    #next-button {
+        display: block;
+        /* margin: 20px auto 0;
+        padding: 10px 20px; */
+        background-color: #7a726c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+        font-size: 18px;
+    }
+
+    #prev-button {
+        /* margin-bottom: 0; 
+        margin-top: 20px; */
+        font-family: 'Garamond', serif;
+        font-size: 18px;
+    }
+
+    #restart-button {
+        display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #263627;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Garamond', serif; /* this font is used for all text on the website*/
+            font-size: 18px;
+            
+    }
+    
+    #restart-button:hover {
+        background-color: #628765;
+        color: black;
+    }
+
+    a {
+        color: black;
+    }
+    
+    a:visited {
+        color: black;
+    }
+}
