@@ -49,7 +49,7 @@ img {
 }
 
 #dresses {
-    max-width: 35vw;
+    max-width: 70%;
 }
 
 #edan {
@@ -57,7 +57,7 @@ img {
 }
 
 #rose {
-    max-width: 27vw;
+    max-width: 35vw;
 }
 
 .questions_wrapper {
@@ -123,7 +123,7 @@ img {
 }
 
 #hermesPic {
-    max-width: 70%;
+    max-width: 100%;
 }
 
 #godOf {
@@ -143,6 +143,11 @@ figcaption {
     word-wrap: break-word;
     white-space: normal;
     text-align: left;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
 }
 
 figcaption a:hover {
