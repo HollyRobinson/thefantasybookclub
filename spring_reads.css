@@ -119,6 +119,11 @@ figcaption {
     float: right;
 }
 
+#amethyst {
+    width: 150%; 
+    height: auto;
+}
+
 .moon_description_wrapper {
     display: grid;
     align-items: center; 
@@ -131,7 +136,13 @@ figcaption {
     text-align: left;
 }
 
-
+#amethyst-divider{
+    display: block; /* Make the image a block element */
+    margin-left: auto; /* Automatically adjust left margin */
+    margin-right: auto; /* Automatically adjust right margin */
+    width: 70%; /* Adjust width as necessary */
+    height: auto; /* Maintain aspect ratio */
+}
 .book-title {
     display: block; /* Make sure the title starts on a new line */
     /* font-weight: bold; */
@@ -143,8 +154,24 @@ figcaption {
         margin: 0;
     }
 
+    .moon_description_wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    #amethyst-divider{
+        display: block; /* Make the image a block element */
+    margin-left: auto; /* Automatically adjust left margin */
+    margin-right: auto; /* Automatically adjust right margin */
+    width: 100%; /* Adjust width as necessary */
+    height: auto; /* Maintain aspect ratio */
+   
+        
+        
+    }
     #bookList {
         grid-template-columns: 1fr; /* Change to one column for smaller screens */
+        margin: 0;
+        width: 100%;
     }
 
     #bookList img {
